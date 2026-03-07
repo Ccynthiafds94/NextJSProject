@@ -1,8 +1,14 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react"
+import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+ 
+
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <main className="flex-1">
@@ -25,6 +31,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+       
       </main>
     </div>
   );
